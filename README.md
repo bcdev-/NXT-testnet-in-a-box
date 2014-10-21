@@ -9,4 +9,7 @@ To make a testnet with many peers, simply add peers into conf/nxt-default.proper
 
 It's impossible to run many NXT clients on once computer, but you can easily get around this by running NXT in lxc.
 
+Unfortunately, due to a bug in GUI, you need to start forging by running an API command:
+http://localhost:7876/nxt?requestType=getForging&secretPhrase=aaa
+
 See http://nxtstorm.org/index.php/How_to_create_your_own_testnet-in-a-box if you want to create your own genesis block.
