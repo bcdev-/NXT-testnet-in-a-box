@@ -1,6 +1,6 @@
 Your own juicy Testnet for NXT!
 ====================
-Just unpack the .tar.xz file, and start ./run.sh. You can also ./compile.sh if you want to make modifications to the code.
+Just unpack the .tar.xz file, and run ./clear_db_and_start.sh. You can also ./compile.sh if you want to make modifications to the code.
 
 The genesis block distributes reward to two accounts:
 "aaa" and "aab"
